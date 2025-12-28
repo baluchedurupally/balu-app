@@ -29,6 +29,8 @@ function MobileNavLink({ href, children, onClick }) {
 }
 
 export default function App() {
+  const profileUrl = `${import.meta.env.BASE_URL}profile.png`;
+
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
@@ -47,7 +49,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 overflow-hidden rounded-full border border-slate-200 bg-slate-100">
               <img
-                src="/profile.png"
+                src={profileUrl}
                 alt={`${resume.name} profile`}
                 className="h-full w-full object-cover"
               />
@@ -183,7 +185,7 @@ export default function App() {
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
               <div className="flex items-start gap-4">
                 <div className="h-16 w-16 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100">
-                  <img src="/profile.png" alt="" className="h-full w-full object-cover" />
+                  <img src={profileUrl} alt="" className="h-full w-full object-cover" />
                 </div>
                 <div>
                   <div className="text-sm font-semibold text-slate-900">Focus areas</div>
