@@ -5,8 +5,8 @@ export const resume = {
   email: "balu@balu.app",
   phone: "+1 425-999-6605",
   links: [
-    { label: "LinkedIn", href: "#", note: "Add your LinkedIn URL" },
-    { label: "Credly", href: "#", note: "Add your Credly URL" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/baluchedurupally/", note: "Add your LinkedIn URL" },
+    { label: "Credly", href: "https://www.credly.com/users/balu-chedurupally", note: "Add your Credly URL" },
     { label: "Email", href: "mailto:balu@balu.app" }
   ],
   summary: [
